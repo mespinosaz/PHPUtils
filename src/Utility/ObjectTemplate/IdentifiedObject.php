@@ -11,7 +11,7 @@ class IdentifiedObject
         $this->identifier = $identifier;
     }
 
-    public function id()
+    public function getId()
     {
         return $this->identifier;
     }
