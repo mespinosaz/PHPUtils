@@ -10,6 +10,6 @@ class HashedCollectionTest extends \PHPUnit_Framework_TestCase
     {
         $id =  'test_id';
         $object = new IdentifiedObject($id);
-        $this->assertEquals($id, $object->id());
+        $this->assertEquals($id, $object->getId());
     }
 }
