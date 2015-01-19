@@ -13,6 +13,7 @@
         <testsuite name="Project test suite">
             <directory suffix="Test.php">./src/Utility/Tests/Collection/</directory>
             <directory suffix="Test.php">./src/Utility/Tests/ObjectTemplate/</directory>
+            <directory suffix="Test.php">./src/Utility/Tests/Position/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
