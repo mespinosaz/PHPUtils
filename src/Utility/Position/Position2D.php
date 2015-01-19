@@ -1,6 +1,6 @@
 <?php
 
-namespace whs\Utility\Position;
+namespace mespinosaz\Utility\Position;
 
 class Position2D
 {

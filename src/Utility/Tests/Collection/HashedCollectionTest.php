@@ -1,19 +1,11 @@
 <?php
 
-namespace whs\Utility\Tests\Collection;
+namespace mespinosaz\Utility\Tests\Collection;
 
-require_once('autoload.php');
-
-use whs\Utility\Collection\HashedCollection;
+use mespinosaz\Utility\Collection\HashedCollection;
 
 class HashedCollectionTest extends \PHPUnit_Framework_TestCase
 {
-    public function testConstructor()
-    {
-        $collection = new HashedCollection();
-        $this->assertInstanceOf('whs\Utility\Collection\HashedCollection', $collection);
-    }
-
     public function testAdd()
     {
         $collection = new HashedCollection();

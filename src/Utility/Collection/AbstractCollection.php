@@ -1,8 +1,8 @@
 <?php
 
-namespace whs\Utility\Collection;
+namespace mespinosaz\Utility\Collection;
 
-abstract class Collection
+abstract class AbstractCollection
 {
     protected $collection;
 

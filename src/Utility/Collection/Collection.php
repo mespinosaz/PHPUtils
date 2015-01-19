@@ -1,8 +1,8 @@
 <?php
 
-namespace whs\Utility\Collection;
+namespace mespinosaz\Utility\Collection;
 
-class BaseCollection extends Collection
+class Collection extends AbstractCollection
 {
     public function add()
     {

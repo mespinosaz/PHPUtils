@@ -1,6 +1,6 @@
 <?php
 
-namespace whs\Utility\ObjectTemplate;
+namespace mespinosaz\Utility\ObjectTemplate;
 
 class IdentifiedObject
 {
